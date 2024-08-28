@@ -15,6 +15,10 @@
         padding-right: 0;
     }
 
+    .tyreflex-header .navbar-inner .nav-right .nav-item .nav-login-hide {
+        display: none !important;
+    }
+
     /*---------------- headins ----------------*/
     .heading {
         font-size: var(--font-sub-heading)
@@ -30,8 +34,6 @@
         justify-content: space-between;
         width: 100%;
     }
-
-    .tyreflex-header {}
 
     .tyreflex-header .navbar-toggler {
         padding: 0;
@@ -285,13 +287,14 @@
         margin-top: 60px;
         margin-bottom: 20px;
     }
+
     .desktop-hide {
         display: block;
     }
 }
 
 
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)  {
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
     .dealer-info-wrapper {
         max-width: 100%;
     }
@@ -359,7 +362,7 @@
     }
 }
 
-@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait)  {
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
     .dealer-info-wrapper {
         max-width: 100%;
     }
@@ -427,7 +430,7 @@
     }
 }
 
-@media all and (device-width:  1024px) and (device-height: 768px) and (orientation:landscape) {
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
     .nav-wrapleft .login-btn.mobile-hide {
         display: none !important;
     }
@@ -488,18 +491,22 @@
         gap: 2px;
         padding-right: 10px;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         width: 90px;
     }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .25rem;
         padding-left: .25rem;
         font-size: 14px;
     }
-    .navbar .nav-right .find-dealerbtn{
+
+    .navbar .nav-right .find-dealerbtn {
         width: 120px;
     }
-    .navbar .nav-right .header-btn{
+
+    .navbar .nav-right .header-btn {
         padding: 8px 10px 8px 10px;
         line-height: 14px;
 
